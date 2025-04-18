@@ -1,0 +1,12 @@
+{
+  "name": "Django 2.1.7 + Python 3.8",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.8",
+  "postCreateCommand": "python3 -m venv venv && source venv/bin/activate && pip install django==2.1.7",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.pythonPath": "/workspaces/DjangoDemo/venv/bin/python"
+      }
+    }
+  }
+}
